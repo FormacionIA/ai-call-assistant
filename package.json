@@ -1,0 +1,16 @@
+{
+  "name": "ai-call-assistant",
+  "version": "1.0.0",
+  "description": "Asistente IA en vivo para llamadas de cobranza",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "node-fetch": "^3.3.2"
+  }
+}
