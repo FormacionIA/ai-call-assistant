@@ -1,0 +1,95 @@
+.ia-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #5a2bbd;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(0,0,0,.3);
+}
+
+.ia-panel {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 360px;
+  max-width: 90vw;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 24px 48px rgba(0,0,0,.35);
+  border: 2px solid #5a2bbd;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+.ia-hidden { display: none; }
+
+.ia-header {
+  background: #5a2bbd;
+  color: #fff;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ia-title { font-size: 14px; font-weight: 600; }
+
+.ia-close {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.ia-section { padding: 12px; border-bottom: 1px solid #eee; }
+
+.ia-label { font-size: 12px; color: #555; font-weight: 600; display: block; margin-bottom: 6px; }
+
+.ia-box {
+  background: #f7f1ff;
+  border: 1px solid #c7b1ff;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  min-height: 70px;
+  color: #222;
+  white-space: pre-wrap;
+}
+
+.ia-box-small {
+  min-height: 48px;
+  background: #fafafa;
+  border: 1px solid #dcdcdc;
+}
+
+.ia-actions { display: flex; gap: 8px; margin-top: 8px; }
+
+.ia-btn {
+  background: #5a2bbd;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.ia-btn-alt { background: #6f6f6f; }
+
+.ia-btn-live { background: #07a86a; }
+
+.ia-status { font-size: 12px; color: #333; margin-left: 10px; }
+
+.ia-footer { display: flex; align-items: center; gap: 8px; }
