@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistente IA de Llamadas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <button id="ia-toggle" class="ia-toggle">IA</button>
+
+  <div id="ia-panel" class="ia-panel ia-hidden">
+    <div class="ia-header">
+      <div class="ia-title">Asistente IA</div>
+      <button id="close-panel" class="ia-close">✕</button>
+    </div>
+
+    <div class="ia-section">
+      <label class="ia-label">Cliente dijo:</label>
+      <div id="transcript" class="ia-box ia-box-small">
+        (aún no hay transcripción)
+      </div>
+    </div>
+
+    <div class="ia-section">
+      <label class="ia-label">Sugiere decirle:</label>
+      <div id="suggestion" class="ia-box">
+        Pulsa "Escuchar" para iniciar
+      </div>
+      <div class="ia-actions">
+        <button id="copy-btn" class="ia-btn">Copiar</button>
+        <button id="next-btn" class="ia-btn ia-btn-alt">Otra opción</button>
+      </div>
+    </div>
+
+    <div class="ia-section ia-footer">
+      <button id="listen-btn" class="ia-btn ia-btn-live">🎙 Escuchar</button>
+      <span id="status" class="ia-status">Inactivo</span>
+    </div>
+  </div>
+
+  <script src="ui.js"></script>
+  <script src="audio.js"></script>
+  <script src="api.js"></script>
+</body>
+</html>
